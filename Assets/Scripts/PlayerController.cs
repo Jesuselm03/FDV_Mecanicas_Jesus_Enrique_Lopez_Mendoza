@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Tilemaps;
 using TMPro;
 
-public class ControlJugador : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float velocidadMovimiento = 5f;
     private bool estaMirandoDerecha = true;
